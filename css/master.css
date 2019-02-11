@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #222222;
+}
+
+#game {
+  display: grid;
+
+  width: 100vw;
+  height: 100vh;
+
+  grid-template-columns: 75vw 25vw;
+}
+
+#game_element {
+  display: block;
+
+  width: 75vw;
+  height: 40vh;
+
+  background: red;
+}
+
+#world_data {
+  display: block;
+  float: right;
+
+  width: 25vw;
+  height: 100vh;
+}
+
+#button_holder {
+  display: block;
+  position: absolute;
+  top: 45vh;
+
+  width: 75vw;
+  height: 55vh;
+
+  background: blue;
+}
