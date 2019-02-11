@@ -1,0 +1,16 @@
+[
+  {
+    "choice": "choiceName",
+	"narrative": "story here"
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": ""
+      },
+      {
+        "choiceText": "",
+        "goTo": ""
+      }
+    ]
+  }
+]

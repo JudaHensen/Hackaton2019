@@ -26,16 +26,10 @@ body {
   background: #7F7F7F;
 }
 
-#world_data {
-  display: block;
-  float: right;
-
-  width: 25vw;
-  height: 100vh;
-}
-
 #button_holder {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   position: absolute;
   top: 45vh;
 
@@ -43,4 +37,21 @@ body {
   height: 55vh;
 
   background: #7F7F7F;
+}
+.button {
+  
+}
+.button_text {
+
+}
+.button_image {
+
+}
+
+#world_data {
+  display: block;
+  float: right;
+
+  width: 25vw;
+  height: 100vh;
 }
