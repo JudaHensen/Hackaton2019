@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Shrek;
+  src: url(../fonts/font.ttf);
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -20,11 +25,16 @@ body {
 
 #game_element {
   display: block;
+  border-radius: 20px;
+  position: relative;
+  top: 5vh;
 
   width: 75vw;
-  height: 40vh;
+  height: 45vh;
 
-  background: #7F7F7F;
+  /*background: #7F7F7F;*/
+  background: linear-gradient(45deg, #7F7F7F, rgb(80,80,80));
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.4), 0 3px 5px 0 rgba(0,0,0,0.4);
 }
 
 #button_holder {
@@ -32,14 +42,15 @@ body {
   grid-template-columns: 1fr 1fr;
 
   position: absolute;
-  top: 45vh;
+  top: 59vh;
 
   width: 75vw;
-  height: 55vh;
+  height: 35vh;
 }
 
 p {
   text-align: center;
+  margin: 0;
 }
 
 .button {
@@ -51,10 +62,39 @@ p {
   width: 90%;
   height: 80%;
 
-  background: #7F7F7F;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.4), 0 3px 5px 0 rgba(0,0,0,0.4);
+  /* background for webkit animation */
+  background: linear-gradient(45deg, #7F7F7F 33.3%, rgb(50,50,50) 33.301%, #7F7F7F 66.301%, rgb(50,50,50) 66.302%);
+  background-size: 385% 100%;
+  background-position: 0% 0;
 }
 .button_text {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  color: rgb(200,200,200);
+  font-family: Shrek;
+  font-size: 2em;
+}
+.button:hover{
+  -webkit-animation: Slide .7s cubic-bezier(0,.83,.41,1) forwards;
+}
+.button:not( hover ){
+  -webkit-animation: UnSlide .7s cubic-bezier(.68,.02,.56,.74) forwards;
+}
+@-webkit-keyframes Slide {
+	100% {
+		background-position: 20% 0%;
+	}
+}
+@-webkit-keyframes UnSlide {
+  0% {
+    background-position: 20% 0%;
+  }
+	100% {
+		background-position: 0% 0%;
+	}
 }
 
 #world_data {

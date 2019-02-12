@@ -7,7 +7,7 @@ class Button {
 
     let text = document.createElement('p');
     text.innerHTML = message;
-    text.html = 'button_text';
+    text.className = 'button_text';
 
     // let img = new Image();
     // img.src = image;

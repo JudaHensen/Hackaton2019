@@ -5,19 +5,19 @@
 	"year": "1950",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Specialize in Biology.",
         "goTo": "Biology"
       },
 	  {
-        "choiceText": "",
+        "choiceText": "Specialize in Engineering.",
         "goTo": "Engineer"
       },
 	  {
-        "choiceText": "",
+        "choiceText": "Specialize in Science.",
         "goTo": "Science"
       },
       {
-        "choiceText": "",
+        "choiceText": "Specialize in Business.",
         "goTo": "Business"
       }
     ]
@@ -186,17 +186,6 @@
     "choice": "Science_PreventSkynet",
 	"narrative": "",
 	"year": "2001",
-    "buttons": [
-      {
-        "choiceText": "Restart Game",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Science_PreventFreonProduction",
-	"narrative": "",
-	"year": "-261378091238265316425",
     "buttons": [
       {
         "choiceText": "Restart Game",

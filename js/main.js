@@ -1,5 +1,6 @@
 const storyText = document.getElementById('story_element');
 const buttonHolder = document.getElementById('button_holder');
+const informationHolder = document.getElementById('world_data');
 
 var year, jsonFile, choices, currentChoice, currentChoiceID, music, buttonImg;
 

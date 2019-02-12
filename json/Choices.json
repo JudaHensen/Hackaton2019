@@ -5,19 +5,19 @@
 	"year": "1950",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Specialize in Biology.",
         "goTo": "Biology"
       },
 	  {
-        "choiceText": "",
+        "choiceText": "Specialize in Engineering.",
         "goTo": "Engineer"
       },
 	  {
-        "choiceText": "",
+        "choiceText": "Specialize in Science.",
         "goTo": "Science"
       },
       {
-        "choiceText": "",
+        "choiceText": "Specialize in Business.",
         "goTo": "Business"
       }
     ]
@@ -186,17 +186,6 @@
     "choice": "Science_PreventSkynet",
 	"narrative": "",
 	"year": "2001",
-    "buttons": [
-      {
-        "choiceText": "Restart Game",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Science_PreventFreonProduction",
-	"narrative": "",
-	"year": "-261378091238265316425",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -819,6 +808,210 @@
     "narrative": "",
     "year": "2030",
     "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Biology",
+	"narrative": "",
+	"year": "1960",
+    "buttons": [
+      {
+        "choiceText": "You invest in the smaler things, Like really small, Like dam that is fucking small... anyway, You will try to modify micro organismes so you know how they work so you can later, With a bit of time, Make them your self.",
+        "goTo": "Biology_MicroOrganism"
+      },
+      {
+        "choiceText": "you invest in being lazy, but not in a bad way, i mean everyone knows that automation is the way to go forward, and to make an automatic gene mashine is a handy thing, take it from me",
+        "goTo": "Biology_AutomaticGene"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_MicroOrganism",
+	"narrative": "story here",
+	"year": "1983",
+    "buttons": [
+      {
+        "choiceText": "oil has been around a for a bit now and we know it is bad for nature, maybe it could be handy to make something that will eat the oil incase of a masif spill",
+        "goTo": "Biology_OilEating"
+      },
+      {
+        "choiceText": "we all know the idea of nanobots, i mean siance fiction has tons of them, but why not make that fanticy reality? ",
+        "goTo": "Biology_Nanobots"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_OilEating",
+	"narrative": "story here",
+	"year": "1989",
+    "buttons": [
+      {
+        "choiceText": "with a `wild` discovery you discover there is a lot of CO2 in the air and you know that plants filter a bit of it out of the air, so why not help them improve ",
+        "goTo": "Biology_AirFilter"
+      },
+      {
+        "choiceText": "you have made something that eats oil, but why stop there? im sure you can think of something that could save lifes to remove it... Oh, I know! why not make something to eat away a dangerus desies? like... cancer! lets fix cancer.",
+        "goTo": "Biology_CancerEating"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_AirFilter",
+	"narrative": "story here",
+	"year": "2001",
+    "buttons": [
+      {
+        "choiceText": "you cleared the air of filth, so lets clear the ground of filth, lets make some weapons.",
+        "goTo": "Biology_BioWeapons"
+      },
+      {
+        "choiceText": "altho your flowers are working amyzingly, maybe you can do something with the left over matter... maybe you can manipulate it to make compleatly other things",
+        "goTo": "Biology_MatterManipulation"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_MatterManipulation",
+	"narrative": "story here",
+	"year": "2010",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_BioWeapons",
+	"narrative": "story here",
+	"year": "2012",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_CancerEating",
+	"narrative": "story here",
+	"year": "1997",
+    "buttons": [
+    ]
+  },
+  {
+    "choice": "Biology_CancerEating1",
+	"narrative": "story here",
+	"year": "1997",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_CancerEating2",
+	"narrative": "story here",
+	"year": "1997",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_Nanobots",
+	"narrative": "story here",
+	"year": "1992",
+    "buttons": [
+      {
+        "choiceText": "nobody likes terorists, and you can probebly fight them with your nanobots, and your gonna do exactly that, and while your at it, stddy some other weapons as well",
+        "goTo": "Engineer_PreventingTerrorism"
+      },
+      {
+        "choiceText": "nanobots can be versital, maybe you can help the medical field",
+        "goTo": "Biology_Medical"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_Medical",
+	"narrative": "story here",
+	"year": "1998",
+	"buttons": [
+      {
+        "choiceText": "lets be honest, you might not like to gooutside but being able to move is un misible, lets help the people who can't",
+        "goTo": "Biology_FixParalysis"
+      },
+	  {
+        "choiceText": "fuck natural desasters! no really, nobdy likes them, so... lets make sure that that will never happen anymore",
+		"goTo": "Biology_ManageNature"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_AutomaticGene",
+	"narrative": "story here",
+	"year": "1983",
+	"buttons": [
+      {
+        "choiceText": "to be able to read and modify genes could be handy, maybe you can solf a world problem",
+		"goTo": "Biology_EnhancedFarm"
+      },
+	  {
+        "choiceText": "humans are interesting, why not learn some more",
+		"goTo": "Biology_DeciphereChromosome"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_EnhancedFarm",
+	"narrative": "story here",
+	"year": "1994",
+	"buttons": [
+    ]
+  },
+  {
+    "choice": "Biology_DeciphereChromosome",
+	"narrative": "story here",
+	"year": "1996",
+	"buttons": [
+      {
+        "choiceText": "lets build an army, i mean, super soldiers sounds good",
+        "goTo": "Biology_WeaponizeHumanz"
+      },
+      {
+        "choiceText": "Lets edit human biology, I mean, What could go wrong?",
+        "goTo": "Biology_HumanBioEngenering"
+      }
+    ]
+  },
+  {
+	"choice": "Biology_HumanBioEngenering",
+	"narrative": "story here",
+	"year": "2003",
+	"buttons": [
+      {
+        "choiceText": "you deside its a good idea to mix humans and animals... no complaint from me",
+        "goTo": "Biology_RaceWar"
+      },
+      {
+        "choiceText": "you know what? this whent out of hand, lets fix it before this too late",
+        "goTo": "Biology_BioWeapons"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_RaceWar",
+	"narrative": "story here",
+	"year": "2004",
+	"buttons": [
       {
         "choiceText": "Restart",
         "goTo": "Restart"
