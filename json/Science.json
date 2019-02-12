@@ -1,0 +1,206 @@
+[
+  {
+    "choice": "Start",
+	"narrative": "",
+	"year": "1950",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Biology"
+      },
+	  {
+        "choiceText": "",
+        "goTo": "Engineering"
+      },
+	  {
+        "choiceText": "",
+        "goTo": "Science"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Business"
+      }
+    ]
+  },
+  {
+    "choice": "Science",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_AI"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Science_Nuclear"
+      }
+    ]
+  },
+  {
+    "choice": "Science_Nuclear",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Science_PowerProduction"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Science_DiscoverTimeTravel"
+      }
+    ]
+  },
+  {
+    "choice": "Science_PowerProduction",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Science_InventFreon"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Science_UseWater"
+      }
+    ]
+  },
+  {
+    "choice": "Science_InventFreon",
+	"narrative": "",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Science_UseWater",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Science_WasteInOcean"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Science_WasteInPoorTown"
+      }
+    ]
+  },
+  {
+    "choice": "Science_WasteInOcean",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Science_WasteInPoorTown",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Science_DiscoverTimeTravel",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Science_LearnAboutTimeParadoxes"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Science_PreventWorldWideProblems"
+      }
+    ]
+  },
+  {
+    "choice": "Science_LearnAboutTimeParadoxes",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Science_TravelBackInTime"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Science_TravelForwardInTime"
+      }
+    ]
+  },
+  {
+    "choice": "Science_TravelBackInTime",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Science_TravelForwardInTime",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Science_PreventWorldWideProblems",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Science_PreventSkynet"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Science_PreventFreonProduction"
+      }
+    ]
+  },
+  {
+    "choice": "Science_PreventSkynet",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Science_PreventFreonProduction",
+	"narrative": "",
+	"year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  }
+]

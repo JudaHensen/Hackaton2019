@@ -1,0 +1,244 @@
+[
+  {
+    "choice": "Engineering",
+	"narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_Industrie"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_AI"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Industrie",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_TemperatureRegulator"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_MassRobotProduction"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_TemperatureRegulator",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_UseMachine"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_DestroyMachine"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_MassRobotProduction",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_WorkerRobots"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_PoliceRobots"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_WorkerRobots",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_PutThemToWork"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_TrashThem"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_PutThemToWork",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_TrashThem",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_PoliceRobots",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_WarRobots"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_Monotoring"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_WarRobots",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Monotoring",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_AI",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_Humanoids"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_FaceRecognition"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Humanoids",
+    "narrative": "Skynet blyat",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_FaceRecognition",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_Safety"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_Security"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Savety",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_PreventingTerrorism"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_Monotoring"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Security",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_Monotoring"
+      },
+      {
+        "choiceText": "",
+        "goTo": "Engineer_PreventingTerrorism"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_PreventingTerrorism",
+    "narrative": "story here",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "",
+        "goTo": "Engineer_BuildNuclearDevice"
+      },
+      {
+        "choiceText": "!!TIMER!!",
+        "goTo": "Engineer_FbiOpenUp"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_BuildNuclearDevice",
+    "narrative": "",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_FbiOpenUp",
+    "narrative": "",
+    "year": "",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  }
+]
