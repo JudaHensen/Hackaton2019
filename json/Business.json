@@ -2,14 +2,14 @@
   {
     "choice": "Business",
     "narrative": "story here",
-    "year": "",
+    "year": "1958",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Start your own online media company.",
         "goTo": "Business_onlineMedia"
       },
-	  {
-        "choiceText": "",
+      {
+        "choiceText": "Start a metal selling company.",
         "goTo": "Business_production"
       }
     ]
@@ -17,7 +17,7 @@
   {
     "choice": "Business_onlineMedia",
     "narrative": "story here",
-    "year": "",
+    "year": "2014",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -28,14 +28,14 @@
   {
     "choice": "Business_production",
     "narrative": "story here",
-    "year": "",
+    "year": "1968",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to sell metal.",
         "goTo": "Business_sell"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to mine metal.",
         "goTo": "Business_mine"
       }
     ]
@@ -43,14 +43,14 @@
   {
     "choice": "Business_sell",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to sell copper.",
         "goTo": "Business_copper"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to sell steel.",
         "goTo": "Business_steel"
       }
     ]
@@ -58,29 +58,29 @@
   {
     "choice": "Business_copper",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
-        "goTo": "Business_electronics"
+        "choiceText": "You choose to make electronics with your copper.",
+        "goTo": "Business_cable"
       },
       {
-        "choiceText": "",
+        "choiceText": "You choose not to change your production.",
         "goTo": "Business_algemeen"
       }
     ]
   },
   {
-    "choice": "Business_electronics",
+    "choice": "Business_cable",
     "narrative": "story here",
-    "year": "",
+    "year": "1986",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Make tiny cable's.",
         "goTo": "Business_thinn"
       },
       {
-        "choiceText": "",
+        "choiceText": "Make huge cable's.",
         "goTo": "Business_thicc"
       }
     ]
@@ -88,22 +88,22 @@
   {
     "choice": "Business_thinn",
     "narrative": "story here",
-    "year": "",
+    "year": "1999",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Supply your cable's to house building.",
         "goTo": "Business_housing"
       },
       {
-        "choiceText": "",
-        "goTo": "Business_lepter"
+        "choiceText": "Supply your cable's for laptop factory's.",
+        "goTo": "Business_laptop"
       }
     ]
   },
   {
     "choice": "Business_housing",
     "narrative": "story here",
-    "year": "",
+    "year": "2011",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -112,9 +112,9 @@
     ]
   },
   {
-    "choice": "Business_lepter",
+    "choice": "Business_laptop",
     "narrative": "story here",
-    "year": "",
+    "year": "2015",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -125,7 +125,7 @@
   {
     "choice": "Business_thicc",
     "narrative": "story here",
-    "year": "",
+    "year": "1999",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -136,14 +136,14 @@
   {
     "choice": "Business_algemeen",
     "narrative": "story here",
-    "year": "",
+    "year": "1970",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to supply to NASA.",
         "goTo": "Business_NASA"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to supply to the NS.",
         "goTo": "Business_NS"
       }
     ]
@@ -151,14 +151,14 @@
   {
     "choice": "Business_NASA",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Invest in Satellites",
         "goTo": "Business_spaceShip"
       },
       {
-        "choiceText": "",
+        "choiceText": "Invest in Spacecrafts",
         "goTo": "Business_aliens"
       }
     ]
@@ -166,7 +166,7 @@
   {
     "choice": "Business_spaceShip",
     "narrative": "story here",
-    "year": "",
+    "year": "1981",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -177,7 +177,7 @@
   {
     "choice": "Business_aliens",
     "narrative": "story here",
-    "year": "",
+    "year": "2000",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -188,7 +188,7 @@
   {
     "choice": "Business_NS",
     "narrative": "story here",
-    "year": "",
+    "year": "1976",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -199,14 +199,14 @@
   {
     "choice": "Business_steel",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Supply to the NS.",
         "goTo": "Business_NS"
       },
       {
-        "choiceText": "",
+        "choiceText": "Supply house builders.",
         "goTo": "Business_housing"
       }
     ]
@@ -214,14 +214,14 @@
   {
     "choice": "Business_mine",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Mine aluminium.",
         "goTo": "Business_aluminium"
       },
       {
-        "choiceText": "",
+        "choiceText": "Mine Steel.",
         "goTo": "Business_steel2"
       }
     ]
@@ -229,14 +229,14 @@
   {
     "choice": "Business_aluminium",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to work safe.",
         "goTo": "Business_+safety"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to not work safe.",
         "goTo": "Business_-safety"
       }
     ]
@@ -244,14 +244,14 @@
   {
     "choice": "Business_+safety",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Develope a new tech.",
         "goTo": "Business_nieuweTech"
       },
       {
-        "choiceText": "",
+        "choiceText": "Do nothing.",
         "goTo": "Business_gaVerder"
       }
     ]
@@ -259,14 +259,14 @@
   {
     "choice": "Business_nieuweTech",
     "narrative": "story here",
-    "year": "",
+    "year": "1998",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Use TNT.",
         "goTo": "Business_TNT"
       },
       {
-        "choiceText": "",
+        "choiceText": "Go space mining.",
         "goTo": "Business_spaceMining"
       }
     ]
@@ -274,7 +274,7 @@
   {
     "choice": "Business_TNT",
     "narrative": "story here",
-    "year": "",
+    "year": "2001",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -285,7 +285,7 @@
   {
     "choice": "Business_spaceMining",
     "narrative": "story here",
-    "year": "",
+    "year": "2083",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -296,7 +296,7 @@
   {
     "choice": "Business_gaVerder",
     "narrative": "story here",
-    "year": "",
+    "year": "1986",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -307,7 +307,7 @@
   {
     "choice": "Business_-safety",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -318,14 +318,14 @@
   {
     "choice": "Business_steel2",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Not work safe.",
         "goTo": "Business_-safety"
       },
       {
-        "choiceText": "",
+        "choiceText": "Work safe.",
         "goTo": "Business_+safety2"
       }
     ]
@@ -333,14 +333,14 @@
   {
     "choice": "Business_+safety2",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Sell your business.",
         "goTo": "Business_sellBusiness"
       },
       {
-        "choiceText": "",
+        "choiceText": "Go on and not change anything.",
         "goTo": "Business_gaVerder2"
       }
     ]
@@ -348,7 +348,7 @@
   {
     "choice": "Business_sellBusiness",
     "narrative": "story here",
-    "year": "",
+    "year": "1984",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -359,7 +359,7 @@
   {
     "choice": "Business_gaVerder2",
     "narrative": "story here",
-    "year": "",
+    "year": "1975",
     "buttons": [
       {
         "choiceText": "Restart",

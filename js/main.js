@@ -19,8 +19,7 @@ function setup() {
   music.play();
 
   // assign button image
-  buttonImg = new Image();
-  buttonImg.src = "images/button.png"
+  buttonImg = "images/button.png"
 }
 
 // start game

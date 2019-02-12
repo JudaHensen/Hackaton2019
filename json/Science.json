@@ -10,7 +10,7 @@
       },
 	  {
         "choiceText": "",
-        "goTo": "Engineering"
+        "goTo": "Engineer"
       },
 	  {
         "choiceText": "",
@@ -25,14 +25,14 @@
   {
     "choice": "Science",
 	"narrative": "",
-	"year": "",
+	"year": "1958",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Start research about Artificial Intelligence.",
         "goTo": "Engineer_AI"
       },
       {
-        "choiceText": "",
+        "choiceText": "Start research about Nuclear Physics.",
         "goTo": "Science_Nuclear"
       }
     ]
@@ -40,14 +40,14 @@
   {
     "choice": "Science_Nuclear",
 	"narrative": "",
-	"year": "",
+	"year": "1962",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Build a Nuclear power plant.",
         "goTo": "Science_PowerProduction"
       },
       {
-        "choiceText": "",
+        "choiceText": "Theorize about Time travel.",
         "goTo": "Science_DiscoverTimeTravel"
       }
     ]
@@ -55,14 +55,14 @@
   {
     "choice": "Science_PowerProduction",
 	"narrative": "",
-	"year": "",
+	"year": "1963",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Create a new cooling substance.",
         "goTo": "Science_InventFreon"
       },
       {
-        "choiceText": "",
+        "choiceText": "Cool the Nuclear power plant using water.",
         "goTo": "Science_UseWater"
       }
     ]
@@ -70,6 +70,7 @@
   {
     "choice": "Science_InventFreon",
 	"narrative": "",
+	"year": "1964",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -80,14 +81,14 @@
   {
     "choice": "Science_UseWater",
 	"narrative": "",
-	"year": "",
+	"year": "1965",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Dump your Nuclear waste in the ocean.",
         "goTo": "Science_WasteInOcean"
       },
       {
-        "choiceText": "",
+        "choiceText": "Dump your Nuclear waste in a small town.",
         "goTo": "Science_WasteInPoorTown"
       }
     ]
@@ -95,7 +96,7 @@
   {
     "choice": "Science_WasteInOcean",
 	"narrative": "",
-	"year": "",
+	"year": "1966",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -106,7 +107,7 @@
   {
     "choice": "Science_WasteInPoorTown",
 	"narrative": "",
-	"year": "",
+	"year": "1965",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -117,14 +118,14 @@
   {
     "choice": "Science_DiscoverTimeTravel",
 	"narrative": "",
-	"year": "",
+	"year": "1986",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Invest your free time on research about Paradoxes.",
         "goTo": "Science_LearnAboutTimeParadoxes"
       },
       {
-        "choiceText": "",
+        "choiceText": "Invest your free time on World Wide issues.",
         "goTo": "Science_PreventWorldWideProblems"
       }
     ]
@@ -132,14 +133,14 @@
   {
     "choice": "Science_LearnAboutTimeParadoxes",
 	"narrative": "",
-	"year": "",
+	"year": "1993",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Travel back in time to prevent war in the Roman empire.",
         "goTo": "Science_TravelBackInTime"
       },
       {
-        "choiceText": "",
+        "choiceText": "Travel to the future.",
         "goTo": "Science_TravelForwardInTime"
       }
     ]
@@ -147,7 +148,7 @@
   {
     "choice": "Science_TravelBackInTime",
 	"narrative": "",
-	"year": "",
+	"year": "1935",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -158,7 +159,7 @@
   {
     "choice": "Science_TravelForwardInTime",
 	"narrative": "",
-	"year": "",
+	"year": "4569",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -169,14 +170,14 @@
   {
     "choice": "Science_PreventWorldWideProblems",
 	"narrative": "",
-	"year": "",
+	"year": "1991",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Prevent Robots from acquiring Artificial Intelligence.",
         "goTo": "Science_PreventSkynet"
       },
       {
-        "choiceText": "",
+        "choiceText": "Prevent the Freon production.",
         "goTo": "Science_PreventFreonProduction"
       }
     ]
@@ -184,7 +185,7 @@
   {
     "choice": "Science_PreventSkynet",
 	"narrative": "",
-	"year": "",
+	"year": "2001",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -195,7 +196,7 @@
   {
     "choice": "Science_PreventFreonProduction",
 	"narrative": "",
-	"year": "",
+	"year": "-261378091238265316425",
     "buttons": [
       {
         "choiceText": "Restart Game",

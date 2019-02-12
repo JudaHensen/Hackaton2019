@@ -9,9 +9,9 @@ class Button {
     text.innerHTML = message;
     text.html = 'button_text';
 
-    let img = new Image();
-    img.src = image;
-    image.className = 'button_image';
+    // let img = new Image();
+    // img.src = image;
+    // img.className = 'button_image';
 
     button.addEventListener('click', ()=>{
       if(button.id == "Restart") restart();
@@ -19,7 +19,7 @@ class Button {
     });
 
     button.appendChild(text);
-    button.appendChild(img);
+    // button.appendChild(img);
 
     element.appendChild(button);
 

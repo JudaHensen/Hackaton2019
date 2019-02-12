@@ -10,7 +10,7 @@
       },
 	  {
         "choiceText": "",
-        "goTo": "Engineering"
+        "goTo": "Engineer"
       },
 	  {
         "choiceText": "",
@@ -25,14 +25,14 @@
   {
     "choice": "Science",
 	"narrative": "",
-	"year": "",
+	"year": "1958",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Start research about Artificial Intelligence.",
         "goTo": "Engineer_AI"
       },
       {
-        "choiceText": "",
+        "choiceText": "Start research about Nuclear Physics.",
         "goTo": "Science_Nuclear"
       }
     ]
@@ -40,14 +40,14 @@
   {
     "choice": "Science_Nuclear",
 	"narrative": "",
-	"year": "",
+	"year": "1962",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Build a Nuclear power plant.",
         "goTo": "Science_PowerProduction"
       },
       {
-        "choiceText": "",
+        "choiceText": "Theorize about Time travel.",
         "goTo": "Science_DiscoverTimeTravel"
       }
     ]
@@ -55,14 +55,14 @@
   {
     "choice": "Science_PowerProduction",
 	"narrative": "",
-	"year": "",
+	"year": "1963",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Create a new cooling substance.",
         "goTo": "Science_InventFreon"
       },
       {
-        "choiceText": "",
+        "choiceText": "Cool the Nuclear power plant using water.",
         "goTo": "Science_UseWater"
       }
     ]
@@ -70,6 +70,7 @@
   {
     "choice": "Science_InventFreon",
 	"narrative": "",
+	"year": "1964",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -80,14 +81,14 @@
   {
     "choice": "Science_UseWater",
 	"narrative": "",
-	"year": "",
+	"year": "1965",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Dump your Nuclear waste in the ocean.",
         "goTo": "Science_WasteInOcean"
       },
       {
-        "choiceText": "",
+        "choiceText": "Dump your Nuclear waste in a small town.",
         "goTo": "Science_WasteInPoorTown"
       }
     ]
@@ -95,7 +96,7 @@
   {
     "choice": "Science_WasteInOcean",
 	"narrative": "",
-	"year": "",
+	"year": "1966",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -106,7 +107,7 @@
   {
     "choice": "Science_WasteInPoorTown",
 	"narrative": "",
-	"year": "",
+	"year": "1965",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -117,14 +118,14 @@
   {
     "choice": "Science_DiscoverTimeTravel",
 	"narrative": "",
-	"year": "",
+	"year": "1986",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Invest your free time on research about Paradoxes.",
         "goTo": "Science_LearnAboutTimeParadoxes"
       },
       {
-        "choiceText": "",
+        "choiceText": "Invest your free time on World Wide issues.",
         "goTo": "Science_PreventWorldWideProblems"
       }
     ]
@@ -132,14 +133,14 @@
   {
     "choice": "Science_LearnAboutTimeParadoxes",
 	"narrative": "",
-	"year": "",
+	"year": "1993",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Travel back in time to prevent war in the Roman empire.",
         "goTo": "Science_TravelBackInTime"
       },
       {
-        "choiceText": "",
+        "choiceText": "Travel to the future.",
         "goTo": "Science_TravelForwardInTime"
       }
     ]
@@ -147,7 +148,7 @@
   {
     "choice": "Science_TravelBackInTime",
 	"narrative": "",
-	"year": "",
+	"year": "1935",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -158,7 +159,7 @@
   {
     "choice": "Science_TravelForwardInTime",
 	"narrative": "",
-	"year": "",
+	"year": "4569",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -169,14 +170,14 @@
   {
     "choice": "Science_PreventWorldWideProblems",
 	"narrative": "",
-	"year": "",
+	"year": "1991",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Prevent Robots from acquiring Artificial Intelligence.",
         "goTo": "Science_PreventSkynet"
       },
       {
-        "choiceText": "",
+        "choiceText": "Prevent the Freon production.",
         "goTo": "Science_PreventFreonProduction"
       }
     ]
@@ -184,7 +185,7 @@
   {
     "choice": "Science_PreventSkynet",
 	"narrative": "",
-	"year": "",
+	"year": "2001",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -195,7 +196,7 @@
   {
     "choice": "Science_PreventFreonProduction",
 	"narrative": "",
-	"year": "",
+	"year": "-261378091238265316425",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -204,258 +205,16 @@
     ]
   },
   {
-    "choice": "Engineering",
-	"narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_Industrie"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_AI"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_Industrie",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_TemperatureRegulator"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_MassRobotProduction"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_TemperatureRegulator",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_UseMachine"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_DestroyMachine"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_MassRobotProduction",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_WorkerRobots"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_PoliceRobots"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_WorkerRobots",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_PutThemToWork"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_TrashThem"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_PutThemToWork",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "Restart",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_TrashThem",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "Restart",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_PoliceRobots",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_WarRobots"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_Monotoring"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_WarRobots",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "Restart",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_Monotoring",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "Restart",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_AI",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_Humanoids"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_FaceRecognition"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_Humanoids",
-    "narrative": "Skynet blyat",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "Restart",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_FaceRecognition",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_Safety"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_Security"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_Savety",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_PreventingTerrorism"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_Monotoring"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_Security",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_Monotoring"
-      },
-      {
-        "choiceText": "",
-        "goTo": "Engineer_PreventingTerrorism"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_PreventingTerrorism",
-    "narrative": "story here",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "",
-        "goTo": "Engineer_BuildNuclearDevice"
-      },
-      {
-        "choiceText": "!!TIMER!!",
-        "goTo": "Engineer_FbiOpenUp"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_BuildNuclearDevice",
-    "narrative": "",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "Restart",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
-    "choice": "Engineer_FbiOpenUp",
-    "narrative": "",
-    "year": "",
-    "buttons": [
-      {
-        "choiceText": "Restart",
-        "goTo": "Restart"
-      }
-    ]
-  },
-  {
     "choice": "Business",
     "narrative": "story here",
-    "year": "",
+    "year": "1958",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Start your own online media company.",
         "goTo": "Business_onlineMedia"
       },
-	  {
-        "choiceText": "",
+      {
+        "choiceText": "Start a metal selling company.",
         "goTo": "Business_production"
       }
     ]
@@ -463,7 +222,7 @@
   {
     "choice": "Business_onlineMedia",
     "narrative": "story here",
-    "year": "",
+    "year": "2014",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -474,14 +233,14 @@
   {
     "choice": "Business_production",
     "narrative": "story here",
-    "year": "",
+    "year": "1968",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to sell metal.",
         "goTo": "Business_sell"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to mine metal.",
         "goTo": "Business_mine"
       }
     ]
@@ -489,14 +248,14 @@
   {
     "choice": "Business_sell",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to sell copper.",
         "goTo": "Business_copper"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to sell steel.",
         "goTo": "Business_steel"
       }
     ]
@@ -504,29 +263,29 @@
   {
     "choice": "Business_copper",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
-        "goTo": "Business_electronics"
+        "choiceText": "You choose to make electronics with your copper.",
+        "goTo": "Business_cable"
       },
       {
-        "choiceText": "",
+        "choiceText": "You choose not to change your production.",
         "goTo": "Business_algemeen"
       }
     ]
   },
   {
-    "choice": "Business_electronics",
+    "choice": "Business_cable",
     "narrative": "story here",
-    "year": "",
+    "year": "1986",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Make tiny cable's.",
         "goTo": "Business_thinn"
       },
       {
-        "choiceText": "",
+        "choiceText": "Make huge cable's.",
         "goTo": "Business_thicc"
       }
     ]
@@ -534,22 +293,22 @@
   {
     "choice": "Business_thinn",
     "narrative": "story here",
-    "year": "",
+    "year": "1999",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Supply your cable's to house building.",
         "goTo": "Business_housing"
       },
       {
-        "choiceText": "",
-        "goTo": "Business_lepter"
+        "choiceText": "Supply your cable's for laptop factory's.",
+        "goTo": "Business_laptop"
       }
     ]
   },
   {
     "choice": "Business_housing",
     "narrative": "story here",
-    "year": "",
+    "year": "2011",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -558,9 +317,9 @@
     ]
   },
   {
-    "choice": "Business_lepter",
+    "choice": "Business_laptop",
     "narrative": "story here",
-    "year": "",
+    "year": "2015",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -571,7 +330,7 @@
   {
     "choice": "Business_thicc",
     "narrative": "story here",
-    "year": "",
+    "year": "1999",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -582,14 +341,14 @@
   {
     "choice": "Business_algemeen",
     "narrative": "story here",
-    "year": "",
+    "year": "1970",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to supply to NASA.",
         "goTo": "Business_NASA"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to supply to the NS.",
         "goTo": "Business_NS"
       }
     ]
@@ -597,14 +356,14 @@
   {
     "choice": "Business_NASA",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Invest in Satellites",
         "goTo": "Business_spaceShip"
       },
       {
-        "choiceText": "",
+        "choiceText": "Invest in Spacecrafts",
         "goTo": "Business_aliens"
       }
     ]
@@ -612,7 +371,7 @@
   {
     "choice": "Business_spaceShip",
     "narrative": "story here",
-    "year": "",
+    "year": "1981",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -623,7 +382,7 @@
   {
     "choice": "Business_aliens",
     "narrative": "story here",
-    "year": "",
+    "year": "2000",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -634,7 +393,7 @@
   {
     "choice": "Business_NS",
     "narrative": "story here",
-    "year": "",
+    "year": "1976",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -645,14 +404,14 @@
   {
     "choice": "Business_steel",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Supply to the NS.",
         "goTo": "Business_NS"
       },
       {
-        "choiceText": "",
+        "choiceText": "Supply house builders.",
         "goTo": "Business_housing"
       }
     ]
@@ -660,14 +419,14 @@
   {
     "choice": "Business_mine",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Mine aluminium.",
         "goTo": "Business_aluminium"
       },
       {
-        "choiceText": "",
+        "choiceText": "Mine Steel.",
         "goTo": "Business_steel2"
       }
     ]
@@ -675,14 +434,14 @@
   {
     "choice": "Business_aluminium",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Choose to work safe.",
         "goTo": "Business_+safety"
       },
       {
-        "choiceText": "",
+        "choiceText": "Choose to not work safe.",
         "goTo": "Business_-safety"
       }
     ]
@@ -690,14 +449,14 @@
   {
     "choice": "Business_+safety",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Develope a new tech.",
         "goTo": "Business_nieuweTech"
       },
       {
-        "choiceText": "",
+        "choiceText": "Do nothing.",
         "goTo": "Business_gaVerder"
       }
     ]
@@ -705,14 +464,14 @@
   {
     "choice": "Business_nieuweTech",
     "narrative": "story here",
-    "year": "",
+    "year": "1998",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Use TNT.",
         "goTo": "Business_TNT"
       },
       {
-        "choiceText": "",
+        "choiceText": "Go space mining.",
         "goTo": "Business_spaceMining"
       }
     ]
@@ -720,7 +479,7 @@
   {
     "choice": "Business_TNT",
     "narrative": "story here",
-    "year": "",
+    "year": "2001",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -731,7 +490,7 @@
   {
     "choice": "Business_spaceMining",
     "narrative": "story here",
-    "year": "",
+    "year": "2083",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -742,7 +501,7 @@
   {
     "choice": "Business_gaVerder",
     "narrative": "story here",
-    "year": "",
+    "year": "1986",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -753,7 +512,7 @@
   {
     "choice": "Business_-safety",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -764,14 +523,14 @@
   {
     "choice": "Business_steel2",
     "narrative": "story here",
-    "year": "",
+    "year": "1969",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Not work safe.",
         "goTo": "Business_-safety"
       },
       {
-        "choiceText": "",
+        "choiceText": "Work safe.",
         "goTo": "Business_+safety2"
       }
     ]
@@ -779,14 +538,14 @@
   {
     "choice": "Business_+safety2",
     "narrative": "story here",
-    "year": "",
+    "year": "1973",
     "buttons": [
       {
-        "choiceText": "",
+        "choiceText": "Sell your business.",
         "goTo": "Business_sellBusiness"
       },
       {
-        "choiceText": "",
+        "choiceText": "Go on and not change anything.",
         "goTo": "Business_gaVerder2"
       }
     ]
@@ -794,7 +553,7 @@
   {
     "choice": "Business_sellBusiness",
     "narrative": "story here",
-    "year": "",
+    "year": "1984",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -805,7 +564,260 @@
   {
     "choice": "Business_gaVerder2",
     "narrative": "story here",
-    "year": "",
+    "year": "1975",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer",
+	"narrative": "story here",
+    "year": "1954",
+    "buttons": [
+      {
+        "choiceText": "Work in machinery branch.",
+        "goTo": "Engineer_Industry"
+      },
+      {
+        "choiceText": "Work in AI branch.",
+        "goTo": "Engineer_AI"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Industry",
+    "narrative": "story here",
+    "year": "1960",
+    "buttons": [
+      {
+        "choiceText": "Build a Temperature Regulator device.",
+        "goTo": "Engineer_TemperatureRegulator"
+      },
+      {
+        "choiceText": "Build a machine to Mass Produce robots.",
+        "goTo": "Engineer_MassRobotProduction"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_TemperatureRegulator",
+    "narrative": "story here",
+    "year": "2019",
+    "buttons": [
+      {
+        "choiceText": "Use the Temperature Regulatorinator.",
+        "goTo": "Engineer_UseMachine"
+      },
+      {
+        "choiceText": "Destroy the Temperature Regulatorinator.",
+        "goTo": "Engineer_DestroyMachine"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_MassRobotProduction",
+    "narrative": "story here",
+    "year": "2002",
+    "buttons": [
+      {
+        "choiceText": "Start producing worker robots.",
+        "goTo": "Engineer_WorkerRobots"
+      },
+      {
+        "choiceText": "Start producing police robots.",
+        "goTo": "Engineer_PoliceRobots"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_WorkerRobots",
+    "narrative": "story here",
+    "year": "2021",
+    "buttons": [
+      {
+        "choiceText": "Put the robots to work.",
+        "goTo": "Engineer_PutThemToWork"
+      },
+      {
+        "choiceText": "Trash the robots.",
+        "goTo": "Engineer_TrashThem"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_PutThemToWork",
+    "narrative": "story here",
+    "year": "2023",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_TrashThem",
+    "narrative": "story here",
+    "year": "2022",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_PoliceRobots",
+    "narrative": "story here",
+    "year": "2021",
+    "buttons": [
+      {
+        "choiceText": "Upgrade them to war robots.",
+        "goTo": "Engineer_WarRobots"
+      },
+      {
+        "choiceText": "Let the Government use them as police officers.",
+        "goTo": "Engineer_Monotoring"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_WarRobots",
+    "narrative": "story here",
+    "year": "2028",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Monotoring",
+    "narrative": "story here",
+    "year": "2030",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_AI",
+    "narrative": "story here",
+    "year": "1980",
+    "buttons": [
+      {
+        "choiceText": "Start inventing humanoids.",
+        "goTo": "Engineer_Humanoids"
+      },
+      {
+        "choiceText": "Invent face recognition.",
+        "goTo": "Engineer_FaceRecognition"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Humanoids",
+    "narrative": "Skynet blyat",
+    "year": "2035",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_FaceRecognition",
+    "narrative": "story here",
+    "year": "2003",
+    "buttons": [
+      {
+        "choiceText": "Use it for safety.",
+        "goTo": "Engineer_Safety"
+      },
+      {
+        "choiceText": "Use it for security.",
+        "goTo": "Engineer_Security"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Safety",
+    "narrative": "story here",
+    "year": "2018",
+    "buttons": [
+      {
+        "choiceText": "Use your system to prevent terrorism.",
+        "goTo": "Engineer_PreventingTerrorism"
+      },
+      {
+        "choiceText": "Use your system to monitor the country.",
+        "goTo": "Engineer_Monotoring"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Security",
+    "narrative": "story here",
+    "year": "2018",
+    "buttons": [
+      {
+        "choiceText": "Use your system to monitor the country.",
+        "goTo": "Engineer_Monotoring"
+      },
+      {
+        "choiceText": "Use your system to prevent terrorism.",
+        "goTo": "Engineer_PreventingTerrorism"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_PreventingTerrorism",
+    "narrative": "story here",
+    "year": "2030",
+    "buttons": [
+      {
+        "choiceText": "Build a Nuclear device to survive.",
+        "goTo": "Engineer_BuildNuclearDevice"
+      },
+      {
+        "choiceText": "Refuse to build a Nuclear device.",
+        "goTo": "Engineer_Refuse"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_BuildNuclearDevice",
+    "narrative": "",
+    "year": "2030",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_Refuse",
+    "narrative": "",
+    "year": "2030",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_FbiOpenUp",
+    "narrative": "",
+    "year": "2030",
     "buttons": [
       {
         "choiceText": "Restart",
