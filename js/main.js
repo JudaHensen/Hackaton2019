@@ -2,7 +2,9 @@ const storyText = document.getElementById('story_element');
 const buttonHolder = document.getElementById('button_holder');
 const informationHolder = document.getElementById('world_data');
 
-var year, jsonFile, choices, currentChoice, currentChoiceID, music, buttonImg;
+var year, jsonFile, choices, currentChoice, currentChoiceID,
+    buttonImg,
+    music;
 
 setup();
 getJson(jsonFile);
@@ -15,12 +17,14 @@ function setup() {
   // configure background music
   music = new Audio();
   music.src = "audio/ThemeSong.ogg";
+  music.crossOrigin = 'anonymous';
   music.loop = true;
   music.volume = .5;
   music.play();
+  visualizerSetup(music);
 
   // assign button image
-  buttonImg = "images/button.png"
+  buttonImg = "images/button.png";
 }
 
 // start game

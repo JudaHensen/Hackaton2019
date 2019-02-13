@@ -27,7 +27,7 @@ body {
   display: block;
   border-radius: 20px;
   position: relative;
-  top: 5vh;
+  top: .2vh;
 
   width: 75vw;
   height: 45vh;
@@ -42,7 +42,7 @@ body {
   grid-template-columns: 1fr 1fr;
 
   position: absolute;
-  top: 59vh;
+  top: 64vh;
 
   width: 75vw;
   height: 35vh;
@@ -103,4 +103,14 @@ p {
 
   width: 25vw;
   height: 100vh;
+  background: black;
+}
+#visualizer {
+  display: block;
+  margin: 5%;
+  position: relative;
+  top: 85.5vh;
+
+  width: 90%;
+  background-color: black;
 }
