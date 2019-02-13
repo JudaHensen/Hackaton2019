@@ -1,6 +1,5 @@
 class Button {
-
-  constructor(element, image, message, id) {
+  constructor(element, message, id) {
     let button = document.createElement('div');
     button.className = 'button';
     button.id = id;
@@ -9,17 +8,12 @@ class Button {
     text.innerHTML = message;
     text.className = 'button_text';
 
-    // let img = new Image();
-    // img.src = image;
-    // img.className = 'button_image';
-
     button.addEventListener('click', ()=>{
       if(button.id == "Restart") restart();
       else update(button.id);
     });
 
     button.appendChild(text);
-    // button.appendChild(img);
 
     element.appendChild(button);
 
@@ -29,6 +23,4 @@ class Button {
     }
     element.style.gridTemplateColumns = str;
   }
-
-
 }

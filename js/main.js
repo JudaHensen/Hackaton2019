@@ -7,7 +7,6 @@ const world = document.getElementById('world');
 var choices, currentChoice, currentChoiceID,
     year, time, timer, broken,
     worldStatus,
-    buttonImg,
     music;
 
 setup();
@@ -18,9 +17,6 @@ displayTime();
 
 // setup main variables
 function setup() {
-  // set world image height;
-  world.width = informationHolder.clientWidth;
-  world.height = informationHolder.clientWidth;
   // set special enevt timer to false;
   timer = false;
   // configure background music
@@ -30,8 +26,6 @@ function setup() {
   music.loop = true;
   music.volume = .7;
   music.play();
-  // assign button image
-  buttonImg = "images/button.png";
 }
 
 // start game
@@ -44,6 +38,7 @@ function start() {
   time = new Date();
   time -= new Date('January 1, 0 00:00:01');
 
+  resize();
   updateWorldStatus(worldStatus);
   update(currentChoice);
 }
@@ -82,7 +77,7 @@ function restart() {
 // create buttons
 function createButtons() {
   for(let i = 0; i < choices[currentChoiceID].buttons.length; i++) {
-    let button = new Button(buttonHolder, buttonImg, choices[currentChoiceID].buttons[i].choiceText, choices[currentChoiceID].buttons[i].goTo);
+    let button = new Button(buttonHolder, choices[currentChoiceID].buttons[i].choiceText, choices[currentChoiceID].buttons[i].goTo);
   }
 }
 
@@ -91,4 +86,10 @@ function removeButtons() {
   while (buttonHolder.firstChild) {
     buttonHolder.removeChild(buttonHolder.firstChild);
   }
+}
+
+// when the window resizes
+function resize() {
+  world.width = informationHolder.clientWidth;
+  world.height = informationHolder.clientWidth;
 }

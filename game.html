@@ -9,13 +9,11 @@
 
     <title>Hackaton 2019</title>
   </head>
-  <body>
+  <body onresize="resize()">
     <div id="game">
       <section id="game_element">
         <!-- explenation text -->
-        <section>
-          <p id="story_element" class="button_text">test</p>
-        </section>
+          <p id="story_element" class="button_text">If you see this message, please reload you page by pressing: Shift + F5</p>
 
         <!-- select buttons -->
         <section id="button_holder">
@@ -24,7 +22,7 @@
       </section>
       <aside id="special_data">
         <section id="world_data">
-          <img id="world">
+          <img id="world" draggable="false">
           <p id="worldStatus_text" class="info_text"></p>
           <p id="year_text" class="info_text"></p>
           <p id="time_text" class="info_text"></p>

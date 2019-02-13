@@ -1,7 +1,7 @@
 [
   {
     "choice": "Start",
-	"narrative": "",
+	"narrative": "Hello and welcome to A.R.P.A. Universities.<br><br>We have invited you to study here for your excelent results in highschool. Don't worry, we're also giving you a scholarship.<br><br>Now, in which field would you like to specialize yourself in?",
 	"year": "1950",
     "buttons": [
       {
@@ -24,7 +24,7 @@
   },
   {
     "choice": "Science",
-	"narrative": "",
+	"narrative": "After 8 years of hard work you have finally passed all exams of your specialized study, which is truly magnificent.<br><br>Now you have finally time to spend researching on some ground breaking theories, which one will it be?",
 	"year": "1958",
     "buttons": [
       {
@@ -39,7 +39,7 @@
   },
   {
     "choice": "Science_Nuclear",
-	"narrative": "",
+	"narrative": "Ater you have finally finished your research on Nuclear Physics, you're starting to think about what you should to do next with you completed research.",
 	"year": "1962",
     "buttons": [
       {
@@ -54,7 +54,7 @@
   },
   {
     "choice": "Science_PowerProduction",
-	"narrative": "",
+	"narrative": "You've really done it this time, you're the worlds largest competitor in Nuclear power plants.<br><br>However, you really need to cool your power plants better...",
 	"year": "1963",
     "buttons": [
       {
@@ -69,19 +69,19 @@
   },
   {
     "choice": "Science_InventFreon",
-	"narrative": "",
-	"year": "1964",
+	"narrative": "After 1 year, you have finally developed your newest cooling substance, but it came with some unfortunate effects. While you were to busy cooling all your power plants with your new substance called \"Freon\", you didn't realize how it could affect the Ozone layer.<br>With only 7 years of using \"Freon\" you burned holes through half the Ozone layer.",
+	"year": "1969",
 	"status": "Ozone",
     "buttons": [
       {
-        "choiceText": "Restart Game",
+        "choiceText": "Restart",
         "goTo": "Restart"
       }
     ]
   },
   {
     "choice": "Science_UseWater",
-	"narrative": "",
+	"narrative": "Great, you have cooled all your power plants effectively using water.<br><br>The only problem that remains is, how do we get rid of the nuclear water and waste?",
 	"year": "1965",
     "buttons": [
       {
@@ -96,31 +96,31 @@
   },
   {
     "choice": "Science_WasteInOcean",
-	"narrative": "",
+	"narrative": "It took a while, but you have successfully dumped all your Nuclear waste in the ocean.<br><br>10 months later 97% of humanity died to Radiation Poisoning.",
 	"year": "1966",
 	"status": "Radiation",
     "buttons": [
       {
-        "choiceText": "Restart Game",
+        "choiceText": "Restart",
         "goTo": "Restart"
       }
     ]
   },
   {
     "choice": "Science_WasteInPoorTown",
-	"narrative": "",
+	"narrative": "It took you years to collect and dump all your Nuclear waste in a small town. After only a few weeks everyone in the small town died of Radiation Poisoning.<br><br>You have been send to an CIA blacksite for \"interogation\".",
 	"year": "1965",
 	"status": "Regular",
     "buttons": [
       {
-        "choiceText": "Restart Game",
+        "choiceText": "Restart",
         "goTo": "Restart"
       }
     ]
   },
   {
     "choice": "Science_DiscoverTimeTravel",
-	"narrative": "",
+	"narrative": "After 24 years of precious and top secret work you have finally enough knowlegde about time travel. But how can you make the world a better place, or how would you like to spend your retirement?",
 	"year": "1986",
     "buttons": [
       {
@@ -128,18 +128,18 @@
         "goTo": "Science_LearnAboutTimeParadoxes"
       },
       {
-        "choiceText": "Invest your free time on World Wide issues.",
+        "choiceText": "Invest your time on World Wide issues.",
         "goTo": "Science_PreventWorldWideProblems"
       }
     ]
   },
   {
     "choice": "Science_LearnAboutTimeParadoxes",
-	"narrative": "",
+	"narrative": "After even more research about Time travel and Time paradoxes, you finally feal ready to help today's society, so what could we do for them?",
 	"year": "1993",
     "buttons": [
       {
-        "choiceText": "Travel back in time to prevent war in the Roman empire.",
+        "choiceText": "Travel back in time to prevent the Roman empire From collapsing.",
         "goTo": "Science_TravelBackInTime"
       },
       {
@@ -150,31 +150,31 @@
   },
   {
     "choice": "Science_TravelBackInTime",
-	"narrative": "",
-	"year": "1935",
+	"narrative": "After hours of floating through the endless stream of time, you have finally arrived at 476 C.E.<br>With some time you have finally prevented the Roman Empire from collapsing, but by doing so, you won't have a reason to prevent the Roman Editing from collapsing in your timeline.<br><br>You broke time and space itself.",
+	"year": "-1",
 	"status": "Broken",
     "buttons": [
       {
-        "choiceText": "Restart Game",
+        "choiceText": "Restart",
         "goTo": "Restart"
       }
     ]
   },
   {
     "choice": "Science_TravelForwardInTime",
-	"narrative": "",
+	"narrative": "After a few minutes of floating through the stream of time, you have finally arrived at 4569, where you shall continue your research with new technologie. With an extra few years of research, you find a loophole to bring technologie from this timeline back to yours.<br><br>You have helped society to evolve faster.",
 	"year": "4569",
 	"status": "Regular",
     "buttons": [
       {
-        "choiceText": "Restart Game",
+        "choiceText": "Restart",
         "goTo": "Restart"
       }
     ]
   },
   {
     "choice": "Science_PreventWorldWideProblems",
-	"narrative": "",
+	"narrative": "After researching almost all World Wide problems, you have found 2 options you might be able to avoid.",
 	"year": "1991",
     "buttons": [
       {
@@ -189,24 +189,24 @@
   },
   {
     "choice": "Science_PreventFreonProduction",
-	"narrative": "",
+	"narrative": "While you traveled through the endless stream of time, until you realize it's truly endless.<br><br>You collapsed the foundation of time and space.",
 	"year": "-1",
 	"status": "Broken",
     "buttons": [
       {
-        "choiceText": "Restart Game",
+        "choiceText": "Restart",
         "goTo": "Restart"
       }
     ]
   },
   {
     "choice": "Science_PreventSkynet",
-	"narrative": "",
+	"narrative": "After endless attempts of stopping robots from gaining Artificial Intelligence, you lose all hope. While a government research facility was testing new Artificial Intelligence, the software uploaded itself through the ARPANET. The software made itself a rootkit so it could not be removed from a robots memory.<br><br>The robots took over almost the entire planet.",
 	"year": "2001",
 	"status": "Dust",
     "buttons": [
       {
-        "choiceText": "Restart Game",
+        "choiceText": "Restart",
         "goTo": "Restart"
       }
     ]
@@ -859,26 +859,26 @@
 	"year": "1960",
     "buttons": [
       {
-        "choiceText": "You invest in the smaler things, Like really small, Like dam that is fucking small... anyway, You will try to modify micro organismes so you know how they work so you can later, With a bit of time, Make them your self.",
+        "choiceText": "You invest in the smaller things, Like really small, Like damn that is fucking small... anyway, You will try to modify micro organisms so you know how they work, so you can later, With a bit of time, Make them yourself.",
         "goTo": "Biology_MicroOrganism"
       },
       {
-        "choiceText": "you invest in being lazy, but not in a bad way, i mean everyone knows that automation is the way to go forward, and to make an automatic gene mashine is a handy thing, take it from me",
+        "choiceText": "You invest in being lazy, but not in a bad way, I mean everyone knows that automation is the way to go forward, and to make an automatic gene machine is a handy thing, take it from me",
         "goTo": "Biology_AutomaticGene"
       }
     ]
   },
   {
     "choice": "Biology_MicroOrganism",
-	"narrative": "You have invested in the smaller things, and now know a lot about Microorganism's and there uses, how about we do something with that knowledge.",
+	"narrative": "You have invested in the smaller things, and now know a lot about Micro-organisms and there uses, how about we do something with that knowledge.",
 	"year": "1983",
     "buttons": [
       {
-        "choiceText": "oil has been around a for a bit now and we know it is bad for nature, maybe it could be handy to make something that will eat the oil incase of a masif spill",
+        "choiceText": "Oil has been around a for a bit now and we know it is bad for nature, maybe it could be handy to make something that will eat the oil in case of a massive spill",
         "goTo": "Biology_OilEating"
       },
       {
-        "choiceText": "we all know the idea of nanobots, i mean siance fiction has tons of them, but why not make that fanticy reality? ",
+        "choiceText": "We all know the idea of nanobots, i mean science fiction has tons of them, but why not make that fantasy reality? ",
         "goTo": "Biology_Nanobots"
       }
     ]
@@ -889,33 +889,33 @@
 	"year": "1989",
     "buttons": [
       {
-        "choiceText": "with a `wild` discovery you discover there is a lot of CO2 in the air and you know that plants filter a bit of it out of the air, so why not help them improve ",
+        "choiceText": "With a \"wild\" discovery you discover that there is a lot of CO2 in the air and you know that plants filter a bit of it out of the air, so why not help them improve ",
         "goTo": "Biology_AirFilter"
       },
       {
-        "choiceText": "you have made something that eats oil, but why stop there? im sure you can think of something that could save lifes to remove it... Oh, I know! why not make something to eat away a dangerus desies? like... cancer! lets fix cancer.",
+        "choiceText": "You have made something that eats oil, but why stop there? Im sure you can think of something that could save lifes to remove it... Oh, I know! why not make something to eat away a dangerus decieses? like... cancer! lets fix cancer.",
         "goTo": "Biology_CancerEating"
       }
     ]
   },
   {
     "choice": "Biology_AirFilter",
-	"narrative": "While you made something that eats the oil spills the air was still polluted, not anymore tho sins you and your plats fixed that.",
+	"narrative": "While you made something that eats the oil spills, the air was still polluted, not anymore tho since you and your plants fixed that.",
 	"year": "2001",
     "buttons": [
       {
-        "choiceText": "you cleared the air of filth, so lets clear the ground of filth, lets make some weapons.",
+        "choiceText": "You cleared the air of filth, so lets clear the ground of filth, lets make some weapons.",
         "goTo": "Biology_BioWeapons"
       },
       {
-        "choiceText": "altho your flowers are working amyzingly, maybe you can do something with the left over matter... maybe you can manipulate it to make compleatly other things",
+        "choiceText": "Although your flowers are working amazingly, maybe you can do something with the left over matter... maybe you can manipulate it to make completly other things",
         "goTo": "Biology_MatterManipulation"
       }
     ]
   },
   {
     "choice": "Biology_MatterManipulation",
-	"narrative": "You thought that this always was cool and wanted to make it reality, and you did! You made a mater manipulate, just throw stuff in and out comes a big mac, and with this you also saved the world from it self, I mean: got uranium waste? Throw it in the mater manipulator and make something new from it, good job.",
+	"narrative": "You have always thought that this was cool and wanted to make it reality, and you did! You made a matter manipulator, just throw stuff in and out comes a big mac, and with this you also saved the world from it self, I mean: got uranium waste? Throw it in the matter manipulator and make something new from it, good job.",
 	"year": "2010",
 	"status": "Regular",
     "buttons": [
@@ -939,7 +939,7 @@
   },
   {
     "choice": "Biology_CancerEating",
-	"narrative": "you have made the virus that should eat away all sorts of cancer without doing any harm... Lets hope it works",
+	"narrative": "You have made the virus that should eat away all sorts of cancer without doing any harm... Lets hope it works",
 	"year": "1997",
 	"status": "Regular",
     "buttons": [
@@ -947,7 +947,7 @@
   },
   {
     "choice": "Biology_CancerEating1",
-	"narrative": "it worked! You solved cancer and with this tech you can probably fix all diseases, shame this the earth wont allow that, I mean your the once that polluted it so... Have fun dieing :D",
+	"narrative": "It worked! You solved cancer and with this tech you can probably fix all diseases, shame the earth wont allow that, I mean your the one that polluted it so... Have fun dieing :D",
 	"year": "1997",
 	"status": "2000C",
     "buttons": [
@@ -959,7 +959,7 @@
   },
   {
     "choice": "Biology_CancerEating2",
-	"narrative": "well... You accidentally created a zombie virus. How? Don't ask me your the one who did it! Anyway good luck.",
+	"narrative": "Well... You accidentally created a zombie virus, How? Don't ask me, your the one who did it! Anyway good luck.",
 	"year": "1997",
 	"status": "Radiation",
     "buttons": [
@@ -975,7 +975,7 @@
 	"year": "1992",
     "buttons": [
       {
-        "choiceText": "nobody likes terorists, and you can probebly fight them with your nanobots, and your gonna do exactly that, and while your at it, stddy some other weapons as well",
+        "choiceText": "Nobody likes terrorists, and you can probably fight them with your nanobots, and your gonna do exactly that, and while your at it, studdy some other weapons as well",
         "goTo": "Engineer_PreventingTerrorism"
       },
       {
@@ -990,11 +990,11 @@
 	"year": "1998",
 	"buttons": [
       {
-        "choiceText": "Lets be honest, you might not like to go outside but being able to move is unmisible, lets help the people who can't.",
+        "choiceText": "Lets be honest, you might not like to go outside but being able to move is unmisable, lets help the people who can't.",
         "goTo": "Biology_FixParalysis"
       },
 	  {
-        "choiceText": "Fuck natural disasters! No really, nobdy likes them, so... lets make sure that that will never happen anymore...",
+        "choiceText": "Fuck natural disasters! No really, nobody likes them, so... lets make sure that that will never happen anymore...",
 		"goTo": "Biology_ManageNature"
       }
     ]
@@ -1005,7 +1005,7 @@
 	"year": "1983",
 	"buttons": [
       {
-        "choiceText": "To be able to read and modify genes could be handy, maybe you can solve a world problem?",
+        "choiceText": "Being able to read and modify genes could be handy, maybe you can solve a world problem?",
 		"goTo": "Biology_EnhancedFarm"
       },
 	  {
@@ -1016,7 +1016,7 @@
   },
   {
     "choice": "Biology_EnhancedFarm",
-	"narrative": "Making more food seems like a perfect choice didn't it?",
+	"narrative": "Making more food seems like a perfect choice, didn't it?",
 	"year": "1994",
 	"buttons": [
     ]
@@ -1027,11 +1027,11 @@
 	"year": "1996",
 	"buttons": [
       {
-        "choiceText": "lets build an army, i mean, super soldiers sounds good.",
+        "choiceText": "Lets build an army, I mean, super soldiers sounds good.",
         "goTo": "Biology_WeaponizeHumanz"
       },
       {
-        "choiceText": "Lets edit human biology, i mean, What could go wrong?",
+        "choiceText": "Lets edit humans, I mean, What could go wrong?",
         "goTo": "Biology_HumanBioEngenering"
       }
     ]
@@ -1042,11 +1042,11 @@
 	"year": "2003",
 	"buttons": [
       {
-        "choiceText": "you deside its a good idea to mix humans and animals... no complaint from me",
+        "choiceText": "You deside its a good idea to mix humans and animals... no complaint from me",
         "goTo": "Biology_RaceWar"
       },
       {
-        "choiceText": "you know what? this whent out of hand, lets fix it before this too late",
+        "choiceText": "You know what? this whent out of hand, lets fix it before this too late",
         "goTo": "Biology_BioWeapons"
       }
     ]

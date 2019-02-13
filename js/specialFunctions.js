@@ -10,7 +10,7 @@ function checkForSpecial(current) {
       // functie(); break;
     //case specialFunctions[3]choice:
       // functie(); break;
-    case specialFunctions[4].choice:
+    case specialFunctions[4].choice, specialFunctions[5].choice:
       breakTime(); break;
   }
 }
