@@ -71,6 +71,7 @@
     "choice": "Science_InventFreon",
 	"narrative": "",
 	"year": "1964",
+	"status": "Ozone",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -97,6 +98,7 @@
     "choice": "Science_WasteInOcean",
 	"narrative": "",
 	"year": "1966",
+	"status": "Radiation",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -108,6 +110,7 @@
     "choice": "Science_WasteInPoorTown",
 	"narrative": "",
 	"year": "1965",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -149,6 +152,7 @@
     "choice": "Science_TravelBackInTime",
 	"narrative": "",
 	"year": "1935",
+	"status": "Broken",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -160,6 +164,7 @@
     "choice": "Science_TravelForwardInTime",
 	"narrative": "",
 	"year": "4569",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -183,9 +188,22 @@
     ]
   },
   {
+    "choice": "Science_PreventFreonProduction",
+	"narrative": "",
+	"year": "-1",
+	"status": "Broken",
+    "buttons": [
+      {
+        "choiceText": "Restart Game",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
     "choice": "Science_PreventSkynet",
 	"narrative": "",
 	"year": "2001",
+	"status": "Dust",
     "buttons": [
       {
         "choiceText": "Restart Game",
@@ -212,6 +230,7 @@
     "choice": "Business_onlineMedia",
     "narrative": "story here",
     "year": "2014",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -298,6 +317,7 @@
     "choice": "Business_housing",
     "narrative": "story here",
     "year": "2011",
+	"status": "2000C",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -309,6 +329,7 @@
     "choice": "Business_laptop",
     "narrative": "story here",
     "year": "2015",
+	"status": "Dust",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -320,6 +341,7 @@
     "choice": "Business_thicc",
     "narrative": "story here",
     "year": "1999",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -361,6 +383,7 @@
     "choice": "Business_spaceShip",
     "narrative": "story here",
     "year": "1981",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -372,6 +395,7 @@
     "choice": "Business_aliens",
     "narrative": "story here",
     "year": "2000",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -383,6 +407,7 @@
     "choice": "Business_NS",
     "narrative": "story here",
     "year": "1976",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -469,6 +494,7 @@
     "choice": "Business_TNT",
     "narrative": "story here",
     "year": "2001",
+	"status": "Dust",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -480,6 +506,7 @@
     "choice": "Business_spaceMining",
     "narrative": "story here",
     "year": "2083",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -491,6 +518,7 @@
     "choice": "Business_gaVerder",
     "narrative": "story here",
     "year": "1986",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -502,6 +530,7 @@
     "choice": "Business_-safety",
     "narrative": "story here",
     "year": "1973",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -543,6 +572,7 @@
     "choice": "Business_sellBusiness",
     "narrative": "story here",
     "year": "1984",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -554,6 +584,7 @@
     "choice": "Business_gaVerder2",
     "narrative": "story here",
     "year": "1975",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -640,6 +671,7 @@
     "choice": "Engineer_PutThemToWork",
     "narrative": "story here",
     "year": "2023",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -651,6 +683,7 @@
     "choice": "Engineer_TrashThem",
     "narrative": "story here",
     "year": "2022",
+	"status": "Dust",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -677,6 +710,7 @@
     "choice": "Engineer_WarRobots",
     "narrative": "story here",
     "year": "2028",
+	"status": "Dust",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -688,6 +722,7 @@
     "choice": "Engineer_Monotoring",
     "narrative": "story here",
     "year": "2030",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -714,6 +749,7 @@
     "choice": "Engineer_Humanoids",
     "narrative": "Skynet blyat",
     "year": "2035",
+	"status": "Dust",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -785,6 +821,7 @@
     "choice": "Engineer_BuildNuclearDevice",
     "narrative": "",
     "year": "2030",
+	"status": "Radiation",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -796,6 +833,7 @@
     "choice": "Engineer_Refuse",
     "narrative": "",
     "year": "2030",
+	"status": "Radiation",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -807,6 +845,7 @@
     "choice": "Engineer_FbiOpenUp",
     "narrative": "",
     "year": "2030",
+	"status": "Radiation",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -816,7 +855,7 @@
   },
   {
     "choice": "Biology",
-	"narrative": "",
+	"narrative": "You have been accepted in the school, now you have to chose the direction your study.",
 	"year": "1960",
     "buttons": [
       {
@@ -831,7 +870,7 @@
   },
   {
     "choice": "Biology_MicroOrganism",
-	"narrative": "story here",
+	"narrative": "You have invested in the smaller things, and now know a lot about Microorganism's and there uses, how about we do something with that knowledge.",
 	"year": "1983",
     "buttons": [
       {
@@ -846,7 +885,7 @@
   },
   {
     "choice": "Biology_OilEating",
-	"narrative": "story here",
+	"narrative": "This is amazing, we have no problems with getting rid of oil spills anymore! But, now what do you chose to do next?",
 	"year": "1989",
     "buttons": [
       {
@@ -861,7 +900,7 @@
   },
   {
     "choice": "Biology_AirFilter",
-	"narrative": "story here",
+	"narrative": "While you made something that eats the oil spills the air was still polluted, not anymore tho sins you and your plats fixed that.",
 	"year": "2001",
     "buttons": [
       {
@@ -876,8 +915,9 @@
   },
   {
     "choice": "Biology_MatterManipulation",
-	"narrative": "story here",
+	"narrative": "You thought that this always was cool and wanted to make it reality, and you did! You made a mater manipulate, just throw stuff in and out comes a big mac, and with this you also saved the world from it self, I mean: got uranium waste? Throw it in the mater manipulator and make something new from it, good job.",
 	"year": "2010",
+	"status": "Regular",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -887,8 +927,9 @@
   },
   {
     "choice": "Biology_BioWeapons",
-	"narrative": "story here",
+	"narrative": "You never really liked humans so... Why not threaten them with a world ending weapon?",
 	"year": "2012",
+	"status": "2000C",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -898,15 +939,17 @@
   },
   {
     "choice": "Biology_CancerEating",
-	"narrative": "story here",
+	"narrative": "you have made the virus that should eat away all sorts of cancer without doing any harm... Lets hope it works",
 	"year": "1997",
+	"status": "Regular",
     "buttons": [
     ]
   },
   {
     "choice": "Biology_CancerEating1",
-	"narrative": "story here",
+	"narrative": "it worked! You solved cancer and with this tech you can probably fix all diseases, shame this the earth wont allow that, I mean your the once that polluted it so... Have fun dieing :D",
 	"year": "1997",
+	"status": "2000C",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -916,8 +959,9 @@
   },
   {
     "choice": "Biology_CancerEating2",
-	"narrative": "story here",
+	"narrative": "well... You accidentally created a zombie virus. How? Don't ask me your the one who did it! Anyway good luck.",
 	"year": "1997",
+	"status": "Radiation",
     "buttons": [
       {
         "choiceText": "Restart",
@@ -927,7 +971,7 @@
   },
   {
     "choice": "Biology_Nanobots",
-	"narrative": "story here",
+	"narrative": "you made nanobots! Now how will you use them?",
 	"year": "1992",
     "buttons": [
       {
@@ -935,66 +979,66 @@
         "goTo": "Engineer_PreventingTerrorism"
       },
       {
-        "choiceText": "nanobots can be versital, maybe you can help the medical field",
+        "choiceText": "Nanobots can be versital, maybe you can help the medical field",
         "goTo": "Biology_Medical"
       }
     ]
   },
   {
     "choice": "Biology_Medical",
-	"narrative": "story here",
+	"narrative": "You chose to make your nanobots a medical assistance. But how?",
 	"year": "1998",
 	"buttons": [
       {
-        "choiceText": "lets be honest, you might not like to gooutside but being able to move is un misible, lets help the people who can't",
+        "choiceText": "Lets be honest, you might not like to go outside but being able to move is unmisible, lets help the people who can't.",
         "goTo": "Biology_FixParalysis"
       },
 	  {
-        "choiceText": "fuck natural desasters! no really, nobdy likes them, so... lets make sure that that will never happen anymore",
+        "choiceText": "Fuck natural disasters! No really, nobdy likes them, so... lets make sure that that will never happen anymore...",
 		"goTo": "Biology_ManageNature"
       }
     ]
   },
   {
     "choice": "Biology_AutomaticGene",
-	"narrative": "story here",
+	"narrative": "Automation is the best but now, what will you do with this research material?",
 	"year": "1983",
 	"buttons": [
       {
-        "choiceText": "to be able to read and modify genes could be handy, maybe you can solf a world problem",
+        "choiceText": "To be able to read and modify genes could be handy, maybe you can solve a world problem?",
 		"goTo": "Biology_EnhancedFarm"
       },
 	  {
-        "choiceText": "humans are interesting, why not learn some more",
+        "choiceText": "Humans are interesting, why not learn some more?",
 		"goTo": "Biology_DeciphereChromosome"
       }
     ]
   },
   {
     "choice": "Biology_EnhancedFarm",
-	"narrative": "story here",
+	"narrative": "Making more food seems like a perfect choice didn't it?",
 	"year": "1994",
 	"buttons": [
     ]
   },
   {
     "choice": "Biology_DeciphereChromosome",
-	"narrative": "story here",
+	"narrative": "Now that you have grown the chromosomes to really think, lets think harder.",
 	"year": "1996",
 	"buttons": [
       {
-        "choiceText": "lets build an army, i mean, super soldiers sounds good",
+        "choiceText": "lets build an army, i mean, super soldiers sounds good.",
         "goTo": "Biology_WeaponizeHumanz"
       },
       {
-        "choiceText": "Lets edit human biology, I mean, What could go wrong?",
+        "choiceText": "Lets edit human biology, i mean, What could go wrong?",
         "goTo": "Biology_HumanBioEngenering"
       }
     ]
   },
   {
 	"choice": "Biology_HumanBioEngenering",
-	"narrative": "story here",
+	"narrative": "Editing human reaction speed and other minor things a bit is fun and all, but lets take it to the next level.",
 	"year": "2003",
 	"buttons": [
       {
@@ -1009,8 +1053,9 @@
   },
   {
     "choice": "Biology_RaceWar",
-	"narrative": "story here",
+	"narrative": "Great job! Fury's, neko's, scalies, fox girls, ect. all exist now... At one cost, war! Good luck because people will start knocking on your door.",
 	"year": "2004",
+	"status": "Regular",
 	"buttons": [
       {
         "choiceText": "Restart",

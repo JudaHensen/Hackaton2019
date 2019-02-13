@@ -1,11 +1,16 @@
-function getJson(url){
+function getJson(url, stats){
   if(window.XMLHttpRequest) var xmlhttp = new XMLHttpRequest();
   else var xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 
   xmlhttp.onreadystatechange = ()=> {
     if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
-      choices = JSON.parse(xmlhttp.responseText);
-      start();
+      if(stats == 'choices') {
+        choices = JSON.parse(xmlhttp.responseText);
+        start();
+      }
+      else if(stats == 'special') {
+        specialFunctions = JSON.parse(xmlhttp.responseText);
+      }
     }
   }
 
