@@ -26,6 +26,8 @@ function setup() {
   music.loop = true;
   music.volume = .7;
   music.play();
+
+  window.alert('Hackaton project 2019\n\nClick the earth to enable or disable fullscreen.');
 }
 
 // start game
