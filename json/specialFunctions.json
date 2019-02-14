@@ -1,15 +1,51 @@
 [
   {
-    "choice": "Engineer_PreventingTerrorism"
+    "choice": "Engineer_RefuseMain",
+    "chance": 70,
+    "options": [
+      {
+        "goTo": "Engineer_Refuse"
+      },
+      {
+        "goTo": "Engineer_FbiOpenUp"
+      }
+    ]
   },
   {
-    "choice": "Engineer_UseMachine"
+    "choice": "Engineer_UseMachine",
+    "chance": 50,
+    "options": [
+      {
+        "goTo": "Engineer_UseMachine1"
+      },
+      {
+        "goTo": "Engineer_UseMachine2"
+      }
+    ]
   },
   {
-    "choice": "Biology_CancerEating"
+    "choice": "Biology_CancerEating",
+    "chance": 50,
+    "options": [
+      {
+        "goTo": "Engineer_CancerEating1"
+      },
+      {
+        "goTo": "Engineer_CancerEating2"
+      }
+    ]
   },
   {
-    "choice": "Biology_EnhancedFarm"
+    "choice": "Biology_EnhancedFarm",
+    "chance": 20,
+    "options": [
+      {
+        "goTo": "Engineer_EnhancedFarm1"
+      },
+      {
+        "goTo": "Engineer_EnhancedFarm2"
+      }
+    ]
   },
   {
 	  "choice": "Science_PreventFreonProduction"

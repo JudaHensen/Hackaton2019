@@ -189,7 +189,7 @@
   },
   {
     "choice": "Science_PreventFreonProduction",
-	"narrative": "While you traveled through the endless stream of time, until you realize it's truly endless.<br><br>You collapsed the foundation of time and space.",
+	"narrative": "You travel through the seemingly endless stream of time, until you realize, it's truly endless.<br><br>You collapsed the foundation of Spacetime.",
 	"year": "-1",
 	"status": "Broken",
     "buttons": [
@@ -638,6 +638,30 @@
     ]
   },
   {
+    "choice": "Engineer_UseMachine1",
+    "narrative": "story here1",
+    "year": "2019",
+	"status": "Regular",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Engineer_UseMachine2",
+    "narrative": "story here2",
+    "year": "2019",
+	"status": "Regular",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
     "choice": "Engineer_MassRobotProduction",
     "narrative": "story here",
     "year": "2002",
@@ -813,7 +837,7 @@
       },
       {
         "choiceText": "Refuse to build a Nuclear device.",
-        "goTo": "Engineer_Refuse"
+        "goTo": "Engineer_RefuseMain"
       }
     ]
   },
@@ -1022,6 +1046,30 @@
     ]
   },
   {
+    "choice": "Biology_EnhancedFarm1",
+	"narrative": "You accidentaly made a zombie virus, but because your assistant was too eager to show. Now 20% of humanity are now zombies, and 60% of humanity is dead. But hey, over populaition and hunger are now fixed right?",
+	"year": "2000",
+	"status": "Regular",
+	"buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_EnhancedFarm2",
+	"narrative": "It worked! But you don't have enough water for the entire world, so you're still doomed.",
+	"year": "2000",
+	"status": "Regular",
+	"buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
     "choice": "Biology_DeciphereChromosome",
 	"narrative": "Now that you have grown the chromosomes to really think, lets think harder.",
 	"year": "1996",
@@ -1033,6 +1081,18 @@
       {
         "choiceText": "Lets edit humans, I mean, What could go wrong?",
         "goTo": "Biology_HumanBioEngenering"
+      }
+    ]
+  },
+  {
+    "choice": "Biology_WeaponizeHumanz",
+	"narrative": "You hsve weaponized everyone in existance. You called yourself the borg and are now exlporing space, and only you, have a mind of your own.",
+	"year": "2000",
+	"status": "Regular",
+	"buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
       }
     ]
   },

@@ -4,7 +4,7 @@ const buttonHolder = document.getElementById('button_holder');
 const informationHolder = document.getElementById('world_data');
 const world = document.getElementById('world');
 
-var choices, currentChoice, currentChoiceID,
+var choices, currentChoice, currentChoiceID, special,
     year, time, timer, broken,
     worldStatus,
     music;
@@ -27,7 +27,7 @@ function setup() {
   music.volume = .7;
   music.play();
 
-  window.alert('Hackaton project 2019\n\nClick the earth to enable or disable fullscreen.');
+  window.alert('Hackaton project 2019\n\nClick the earth to enable or disable fullscreen.\n\nSome choices have a random percantage for specific endings.');
 }
 
 // start game
@@ -36,6 +36,7 @@ function start() {
   timer = false;
   broken = false;
   worldStatus = 'Regular';
+  special = false;
 
   time = new Date();
   time -= new Date('January 1, 0 00:00:01');
@@ -51,7 +52,7 @@ function update(nextChoice) {
   // update choice
   currentChoice = nextChoice;
   // check if a special function is activated
-  checkForSpecial(currentChoice);
+  if(!special) checkForSpecial(currentChoice);
   //search currentChoiceID
   for(let i = 0; i < choices.length; i++) {
     if(choices[i].choice == currentChoice) {
