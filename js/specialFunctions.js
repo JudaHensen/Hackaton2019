@@ -5,7 +5,7 @@ let clicked = false;
 function checkForSpecial(current) {
   switch(current) {
     case specialFunctions[0].choice:
-      Chance(specialFunctions[0]); timer = true; special = true; break; // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+      Chance(specialFunctions[0]); special = true; break; // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     case specialFunctions[1].choice:
       Chance(specialFunctions[1]); special = true; break;
     case specialFunctions[2].choice:

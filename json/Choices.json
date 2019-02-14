@@ -213,7 +213,7 @@
   },
   {
     "choice": "Business",
-    "narrative": "story here",
+    "narrative": "Oh deer, you chose business... Well, good luck. Competition and failure will lie in your path.<br>IF you go the wrong way. but for now, are you choosing to make a huge online media company.<br>Or an company speciald in selling or mining metal?",
     "year": "1958",
     "buttons": [
       {
@@ -228,7 +228,7 @@
   },
   {
     "choice": "Business_onlineMedia",
-    "narrative": "story here",
+    "narrative": "Well you aren't going off great. By starting your own media company, you quikly burnned your money.<br>And coudn't get a loan from the bank, because of your faillure the world will now not now your greatness<br>and your ways of letting the people now how bad the climate is doing.",
     "year": "2014",
 	"status": "Regular",
     "buttons": [
@@ -240,7 +240,7 @@
   },
   {
     "choice": "Business_production",
-    "narrative": "story here",
+    "narrative": "By choosing to make an metal company you now have te option to either sell or mine metal, the chose is yours.<br>But keep in mind that this choose will make great problems or moments within the world.<br>And remember you can't go back. You have only one change of success",
     "year": "1968",
     "buttons": [
       {
@@ -255,7 +255,7 @@
   },
   {
     "choice": "Business_sell",
-    "narrative": "story here",
+    "narrative": "Now, to determine how you want to rule your company.<br>Are you going to sell copper or steel?",
     "year": "1969",
     "buttons": [
       {
@@ -270,7 +270,7 @@
   },
   {
     "choice": "Business_copper",
-    "narrative": "story here",
+    "narrative": "By chosing to sell copper you now have the option to expand your business by making cable's or to not change your production.",
     "year": "1969",
     "buttons": [
       {
@@ -285,7 +285,7 @@
   },
   {
     "choice": "Business_cable",
-    "narrative": "story here",
+    "narrative": "With choosing to expand your dusiness, you now have the option to make Huge or tiny cable's.",
     "year": "1986",
     "buttons": [
       {
@@ -300,7 +300,7 @@
   },
   {
     "choice": "Business_thinn",
-    "narrative": "story here",
+    "narrative": "Now that we make tiny cable's, we are able to supplie them to house builders.<br>Or do we want to sell our cable's to laptop factory's?",
     "year": "1999",
     "buttons": [
       {
@@ -315,7 +315,7 @@
   },
   {
     "choice": "Business_housing",
-    "narrative": "story here",
+    "narrative": "With your supply to house builders, we now have so many many many house's that are all full of people we now don't have any space for building... even the parks now stand on skyscrapers with are build on skyscrapers...<br>because of this you are rich but the world is pretty much uninhabitable.",
     "year": "2011",
 	"status": "2000C",
     "buttons": [
@@ -327,7 +327,7 @@
   },
   {
     "choice": "Business_laptop",
-    "narrative": "story here",
+    "narrative": "With the supply to laptop factory's, humanitie now has created an super AI.<br>That has taken over the world... good job....",
     "year": "2015",
 	"status": "Dust",
     "buttons": [
@@ -339,7 +339,7 @@
   },
   {
     "choice": "Business_thicc",
-    "narrative": "story here",
+    "narrative": "With your chose to make huge copper cable's,<br>your company got broke because nobody wanted your huge cable's.",
     "year": "1999",
 	"status": "Regular",
     "buttons": [
@@ -351,7 +351,7 @@
   },
   {
     "choice": "Business_algemeen",
-    "narrative": "story here",
+    "narrative": "Now that nothing changed in your production cycle.<br>We are able to sell our wheres to NASA and the NS......<br>(With is not a joke...)",
     "year": "1970",
     "buttons": [
       {
@@ -366,7 +366,7 @@
   },
   {
     "choice": "Business_NASA",
-    "narrative": "story here",
+    "narrative": "With our investment to sell to NASA, we now have the oppurtunity to invest in Satellites, or Spacecrafts.",
     "year": "1973",
     "buttons": [
       {
@@ -381,7 +381,7 @@
   },
   {
     "choice": "Business_spaceShip",
-    "narrative": "story here",
+    "narrative": "Everbody left you... And then i mean EVERYBODY.<br>You are now the only human left on earth.<br>Because with the discovery made by one of your invested satellites.",
     "year": "1981",
 	"status": "Regular",
     "buttons": [
@@ -393,7 +393,7 @@
   },
   {
     "choice": "Business_aliens",
-    "narrative": "story here",
+    "narrative": "You died 4 years ago with the first attack of the aliens one of your invested spacecrafts discovered, after the third attack.<br>hummantitie bend his knee to the aliens.",
     "year": "2000",
 	"status": "Regular",
     "buttons": [
@@ -405,7 +405,7 @@
   },
   {
     "choice": "Business_NS",
-    "narrative": "story here",
+    "narrative": "With your supply to the NS, Your company didn't get anywhere after that...<br>(i mean, what a supries..) because of this earth falled to its bad habitat species.",
     "year": "1976",
 	"status": "Regular",
     "buttons": [
@@ -417,7 +417,7 @@
   },
   {
     "choice": "Business_steel",
-    "narrative": "story here",
+    "narrative": "With your chose to sell steel you now have the oppurtunitie to sell to the NS (not your best option...), or to house builders.",
     "year": "1969",
     "buttons": [
       {
@@ -432,7 +432,7 @@
   },
   {
     "choice": "Business_mine",
-    "narrative": "story here",
+    "narrative": "Now that you choose to mine metal we have the oppurtunity to mine aluminium or steel.",
     "year": "1969",
     "buttons": [
       {
@@ -447,7 +447,7 @@
   },
   {
     "choice": "Business_aluminium",
-    "narrative": "story here",
+    "narrative": "with your choose to mine aluminium (what in my opinium the better metal is of the two), you can now choose to work safe, or put your workers to a risk by doing the oposite.",
     "year": "1969",
     "buttons": [
       {
@@ -462,7 +462,7 @@
   },
   {
     "choice": "Business_+safety",
-    "narrative": "story here",
+    "narrative": "With your choose to work safe we have the possebility to develope a new tech, or do nothing an caary on as you where.",
     "year": "1973",
     "buttons": [
       {
@@ -477,7 +477,7 @@
   },
   {
     "choice": "Business_nieuweTech",
-    "narrative": "story here",
+    "narrative": "With the development of your new tech we have the aveleblity to MINE IN FUCKING SPACE! Or we do it the boring old fashioned way by using TNT.",
     "year": "1998",
     "buttons": [
       {
@@ -492,7 +492,7 @@
   },
   {
     "choice": "Business_TNT",
-    "narrative": "story here",
+    "narrative": "Ouch... you died, with one of your inspections in the mine an explosive detonated to early, blowing your head of...",
     "year": "2001",
 	"status": "Dust",
     "buttons": [
@@ -504,7 +504,7 @@
   },
   {
     "choice": "Business_spaceMining",
-    "narrative": "story here",
+    "narrative": "With your choose to MINE IN FUCKING SPACE, the ozone layer now is a lot better and you are rich.",
     "year": "2083",
 	"status": "Regular",
     "buttons": [
@@ -516,7 +516,7 @@
   },
   {
     "choice": "Business_gaVerder",
-    "narrative": "story here",
+    "narrative": "You choose to go on and do nothing special with your company and fail in life",
     "year": "1986",
 	"status": "Regular",
     "buttons": [
@@ -528,7 +528,7 @@
   },
   {
     "choice": "Business_-safety",
-    "narrative": "story here",
+    "narrative": "With your choose to not mine safe your mine blowed up and is gone now.",
     "year": "1973",
 	"status": "Regular",
     "buttons": [
@@ -540,7 +540,7 @@
   },
   {
     "choice": "Business_steel2",
-    "narrative": "story here",
+    "narrative": "With your choice to mine steel you have the oppertunity to work safe or not.",
     "year": "1969",
     "buttons": [
       {
@@ -555,7 +555,7 @@
   },
   {
     "choice": "Business_+safety2",
-    "narrative": "story here",
+    "narrative": "you have the oppertunity to sell your business or go on.",
     "year": "1973",
     "buttons": [
       {
@@ -570,7 +570,7 @@
   },
   {
     "choice": "Business_sellBusiness",
-    "narrative": "story here",
+    "narrative": "You sold your business, you are rich. and the climate is still fucked.",
     "year": "1984",
 	"status": "Regular",
     "buttons": [
@@ -582,7 +582,7 @@
   },
   {
     "choice": "Business_gaVerder2",
-    "narrative": "story here",
+    "narrative": "You decided to go on, saidly your company got broke..",
     "year": "1975",
 	"status": "Regular",
     "buttons": [
@@ -594,7 +594,7 @@
   },
   {
     "choice": "Engineer",
-	"narrative": "story here",
+	"narrative": "Congrats, after your 4 year long study you have graduated from the A.R.P.A., leaving you with the choice to either work in:",
     "year": "1954",
     "buttons": [
       {
@@ -609,7 +609,7 @@
   },
   {
     "choice": "Engineer_Industry",
-    "narrative": "story here",
+    "narrative": "AH, the industrie I see! You are specialised in machinery so, what do you want to build?",
     "year": "1960",
     "buttons": [
       {
@@ -624,7 +624,7 @@
   },
   {
     "choice": "Engineer_TemperatureRegulator",
-    "narrative": "story here",
+    "narrative": "A Temperature Regulator? Are you sure? Oh well, you are the mastermind here, but do you think it is save enough to take the risk and test your prototype?",
     "year": "2019",
     "buttons": [
       {
@@ -638,8 +638,19 @@
     ]
   },
   {
+    "choice": "Engineer_DestroyMachine",
+    "narrative": "So, you broke it hmm? Guess that all of that hard work made a risk too high to take? Well whatever, at least you didn't burn the entire planet down.",
+    "year": "2020",
+    "buttons": [
+      {
+        "choiceText": "Restart",
+        "goTo": "Restart"
+      }
+    ]
+  },
+  {
     "choice": "Engineer_UseMachine1",
-    "narrative": "story here1",
+    "narrative": "Well done, you have saved the entire planet with your Temperature Regulatorinator! Everything is green and the air is becoming fresh, at least for now. So until then, take some time off and have some fun. Until the world needs you again, and let's hope it doesn't turn into a giant bioweapon.",
     "year": "2019",
 	"status": "Regular",
     "buttons": [
@@ -651,7 +662,7 @@
   },
   {
     "choice": "Engineer_UseMachine2",
-    "narrative": "story here2",
+    "narrative": "OH MY GOD WHAT HAVE YOU DONE I'M BURNING, YOU ARE BURNING! EVEN YOU ARE BURNING AAAGGGHHH. AND WHY AM I BURNING? I'M THE NARRATOR! YOU BURNED THE 4TH WALL AAAAGGGGHHHH!!!",
     "year": "2019",
 	"status": "Regular",
     "buttons": [
@@ -663,7 +674,7 @@
   },
   {
     "choice": "Engineer_MassRobotProduction",
-    "narrative": "story here",
+    "narrative": "Mass production of robot I see, but what do they suppose to do? And what are they? Thats up to you.",
     "year": "2002",
     "buttons": [
       {
@@ -678,7 +689,7 @@
   },
   {
     "choice": "Engineer_WorkerRobots",
-    "narrative": "story here",
+    "narrative": "Worker bots? Great Idea! Now It's up to you if you want to use them or not.",
     "year": "2021",
     "buttons": [
       {
@@ -693,7 +704,7 @@
   },
   {
     "choice": "Engineer_PutThemToWork",
-    "narrative": "story here",
+    "narrative": "Great job, now nobody needs to work anymore! But how are people going to make money to survive? Bet you didn't think that trough did ya?",
     "year": "2023",
 	"status": "Regular",
     "buttons": [
@@ -705,7 +716,7 @@
   },
   {
     "choice": "Engineer_TrashThem",
-    "narrative": "story here",
+    "narrative": "In what world is trashing robots who can think for themselves a good idea? You are the reason that they started a revolution and took over the world. You just sit in that cage waiting for it all to end, have fun >:)",
     "year": "2022",
 	"status": "Dust",
     "buttons": [
@@ -717,7 +728,7 @@
   },
   {
     "choice": "Engineer_PoliceRobots",
-    "narrative": "story here",
+    "narrative": "Great, Your police robots work fantasticly, but that movie you just watched? Wouldn't it be cool to upgrade them?",
     "year": "2021",
     "buttons": [
       {
@@ -732,7 +743,7 @@
   },
   {
     "choice": "Engineer_WarRobots",
-    "narrative": "story here",
+    "narrative": "You thought THAT was a good idea? You made all fancy robots and stuff, yet you forgot to change their AI. Now they just ignore everything you say instead of helping you. Plus Their taking over the planet, and thats where YOU screwed up.",
     "year": "2028",
 	"status": "Dust",
     "buttons": [
@@ -744,7 +755,7 @@
   },
   {
     "choice": "Engineer_Monotoring",
-    "narrative": "story here",
+    "narrative": "Have you ever watched the Matrix? Because that is exactly whats going on. Now the Government is pulling ALL the string, and all you can do is, what they want so. You messed up real bad.",
     "year": "2030",
 	"status": "Regular",
     "buttons": [
@@ -756,7 +767,7 @@
   },
   {
     "choice": "Engineer_AI",
-    "narrative": "story here",
+    "narrative": "AI, the interesting part of computers, self thinking computers and stuff, or an AI to watch what people are doing. That choice is yours!",
     "year": "1980",
     "buttons": [
       {
@@ -771,7 +782,7 @@
   },
   {
     "choice": "Engineer_Humanoids",
-    "narrative": "Skynet blyat",
+    "narrative": "Skynet, ever heard of it? Well you just went ahead and created that. So now that you basicly created the Terminator, yeah I'm just gonna leave it at that.",
     "year": "2035",
 	"status": "Dust",
     "buttons": [
@@ -783,7 +794,7 @@
   },
   {
     "choice": "Engineer_FaceRecognition",
-    "narrative": "story here",
+    "narrative": "Like putting your nose in other people's business do you? Anyways, doesn't matter but what do you want to use it for?",
     "year": "2003",
     "buttons": [
       {
@@ -798,7 +809,7 @@
   },
   {
     "choice": "Engineer_Safety",
-    "narrative": "story here",
+    "narrative": "Safety first, of course but I think it needs a little tweaking to specialise in something. Let's specialise in:",
     "year": "2018",
     "buttons": [
       {
@@ -813,7 +824,7 @@
   },
   {
     "choice": "Engineer_Security",
-    "narrative": "story here",
+    "narrative": "Security, servailing an area to keep all the scumbags imprisoned or keep everyone in control, your choice.",
     "year": "2018",
     "buttons": [
       {
@@ -828,7 +839,7 @@
   },
   {
     "choice": "Engineer_PreventingTerrorism",
-    "narrative": "story here",
+    "narrative": "Looks like you made a mistake and got yourself caught by the terrorists, who want you to make a device for them. A NUCLEAR device, but do you build it or do you refuse?",
     "year": "2030",
     "buttons": [
       {
@@ -843,7 +854,7 @@
   },
   {
     "choice": "Engineer_BuildNuclearDevice",
-    "narrative": "",
+    "narrative": "So you could't hold the pressure and build the device for them. You know like... THEM, the terrorists? Little did you know that when you made that they would test it, ON YOU.<br> Have fun dying!",
     "year": "2030",
 	"status": "Radiation",
     "buttons": [
@@ -855,7 +866,7 @@
   },
   {
     "choice": "Engineer_Refuse",
-    "narrative": "",
+    "narrative": "You reffused to save everyone, exept yourself. But you do know that these are TERRORISTS? So since you refused the pushed that big red shiny button over there, which is attached to that big strap of C4 underneath your cha.......",
     "year": "2030",
 	"status": "Radiation",
     "buttons": [
@@ -867,7 +878,7 @@
   },
   {
     "choice": "Engineer_FbiOpenUp",
-    "narrative": "",
+    "narrative": "You think, that's it, its over... When suddenly you hear 'FBI OPEN UP!' and the FBI shoots every terrosist in the faccility and get's you to safety. To build what you would have made otherwise. And aditionally to that you are imprisoned for live. But at the bright side your still alive and there is a long long day ahead of you, and multiple years.",
     "year": "2030",
 	"status": "Radiation",
     "buttons": [
